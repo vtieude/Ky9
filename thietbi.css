@@ -1,0 +1,71 @@
+
+body {
+ font-family: Helvetica,Arial,sans-serif;
+ font-size: 16px;
+ line-height: 1.254em;
+ margin: 0;
+ padding: 0;
+ background: white;
+}
+
+h5  {
+  margin-top: 200px;
+  position: absolute;
+  left: 500px;
+}
+#menu ul{
+  list-style-type: none;
+  height: 65px;
+  margin-top: 0px;
+  background: #2D427B;
+}
+#menu li{
+  color: white;
+  display: inline-block;
+  width: 320px;
+  height: 65px;
+  margin-top: 0px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  padding: 0 1em;
+  display: block;
+  text-align: center;
+}
+#menu a:hover {
+  width: 320px;
+  height: 65px;
+  background: #F1F1F1;
+  color: #333;
+}
+#Thietbi {
+position: fixed;
+ height: 180px;
+ background: #222386;
+ width: 100px;
+ left: 0;
+ top : 130px;
+ }
+ #Thietbi ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+#Thietbi ul li {
+ line-height: 2.9em;
+ height: 60px;
+}
+#Thietbi li a {
+ display: block;
+ height: 60px;
+ color: #fff;
+ padding: 0 1em;
+ border-bottom: 1px solid #333;
+}
+#Thietbi li:hover {
+ background-color: #454545;
+}
